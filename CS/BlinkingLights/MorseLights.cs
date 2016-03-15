@@ -29,7 +29,7 @@ namespace Blinky.BlinkingLights
 
         public void Blink()
         {
-            var morseTest = "FitGeekGirl".ConvertToMorse();
+            var morseTest = "SOS".ConvertToMorse();
             foreach (var c in morseTest.ToCharArray())
             {
                 if (c.Equals('.'))
